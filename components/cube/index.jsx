@@ -7,7 +7,7 @@ import { OrbitControls, ScrollControls, useScroll } from '@react-three/drei';
 import { useMotionValue, useSpring } from "framer-motion";
 import { motion } from "framer-motion-3d";
 
-export default function index() {
+export default function useCube() {
     const container = useRef(null)
 
     return (
