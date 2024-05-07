@@ -14,8 +14,8 @@ export default function useCube() {
         <div ref={container} className={styles.main}>
             <h1 className={styles.fixedTitle}>NEXT.JS / THREEJS / FRAMER / SASS</h1>
             <Canvas>
-                <ScrollControls pages={5} damping={0.1}>
-                    <OrbitControls enableZoom={true} enablePan={true} />
+                <ScrollControls damping={0.1}>
+                    <OrbitControls enableZoom={true} enablePan={false} />
                     <ambientLight intensity={2} />
                     <directionalLight position={[2, 1, 1]} />
                     <Cube />
